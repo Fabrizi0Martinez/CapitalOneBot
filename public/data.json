@@ -1,0 +1,39 @@
+{
+  "calificacion": 7 ,
+  "categoriasFinancieras": {
+    "ahorros": 20,
+    "inversiones": 30,
+    "gastos": 50
+  },
+  "gastosRecurrentes": [
+    {
+      "nombre": "Alquiler",
+      "monto": 500
+    },
+    {
+      "nombre": "Internet",
+      "monto": 50
+    }
+  ],
+  "recomendaciones": [
+    "Reducir gastos en entretenimiento",
+    "Aumentar ahorro mensual en un 5%"
+  ],
+  "resumen": "En el último mes, tus gastos han aumentado un 10% comparado con el mes anterior.",
+  "historialCalificacion": [
+    { "mes": "Enero", "calificacion": 720 },
+    { "mes": "Febrero", "calificacion": 730 },
+    { "mes": "Marzo", "calificacion": 740 },
+    { "mes": "Abril", "calificacion": 750 }
+  ],
+  "recomendacionesTarjetasCredito": [
+    {
+      "nombre": "Tarjeta Platinum",
+      "beneficios": "1.5% cashback en todas las compras"
+    },
+    {
+      "nombre": "Tarjeta Gold",
+      "beneficios": "Sin cuota anual el primer año"
+    }
+  ]
+}

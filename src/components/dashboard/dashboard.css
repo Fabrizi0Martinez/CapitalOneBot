@@ -1,0 +1,43 @@
+.dashboard {
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.widget {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Estilos para los títulos */
+.widget h3 {
+  color: #003366; /* Azul oscuro */
+}
+
+/* Estilos para los textos principales */
+.widget p,
+.widget li,
+.widget h4 {
+  color: #336699; /* Azul medio */
+}
+
+/* Estilos para el score */
+.widget.calificacion .score {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1E90FF; /* Azul brillante */
+}
+
+/* Estilos para enlaces o textos destacados */
+.widget a,
+.widget .highlight {
+  color: #6699CC; /* Azul claro */
+}
+
+/* Puedes añadir más clases para diferentes tonos de azul si lo deseas */
